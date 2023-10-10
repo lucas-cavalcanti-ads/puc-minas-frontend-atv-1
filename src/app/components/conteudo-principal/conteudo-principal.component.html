@@ -1,0 +1,6 @@
+<div class="p-2">
+    <h1>Últimas notícias do Blog</h1>
+    <div *ngFor = "let conteudo of conteudos">
+        <atividade-frontend-conteudo-item [titulo]="conteudo.conteudoTitulo" [conteudo]="conteudo.conteudoTexto"></atividade-frontend-conteudo-item>
+    </div>
+</div>
